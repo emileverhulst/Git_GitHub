@@ -83,3 +83,6 @@ Then: git push -> yes.
 tralala
 
 HTTPS vs SSH: by using the HTTPS key you should not be able to push/pull or edit the files in the repo, where you should to by using the SSH key.
+
+
+add new text to create a conflict - doc 2
