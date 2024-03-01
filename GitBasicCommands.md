@@ -29,3 +29,21 @@ git push
 git push --set-upstream name_link master
 
 git reset (unstage all the files)
+
+
+
+git pull --all
+
+git pull
+
+git push
+
+git checkout
+
+git branch -a
+
+git clone
+
+git checkout DetachedHead
+
+git revert

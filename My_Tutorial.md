@@ -84,8 +84,16 @@ tralala
 
 HTTPS vs SSH: by using the HTTPS key you should not be able to push/pull or edit the files in the repo, where you should to by using the SSH key.
 
+git branch --list: lists all the branches that exist and as such if multiple timelines exist.
 
+git checkout : then you enter the new branch of which you typed in the branch_name.
 
-git pull
+## Parallel timelines - how to experiment risk free in Git
 
-git push
+1. create a new timeline - branch and give it a name
+   
+   1. 'git branch '
+
+2. checkout to the timeline uou want to work on
+   
+   1. 'git checkout <name/id>'
