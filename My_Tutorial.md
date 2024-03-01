@@ -121,10 +121,8 @@ and then you get another error:
 
 "Automatic merge failed; fix conflicts and then commit the result."
 
-Then you should
-=======
+then you should delete the conflict in the local file and then add and commit the file again, and push it to GitHub. Then it should be solved.
 
-add new text to create a conflict - doc 2
-another edit to create more conflicts
 
-> > > > > > > 
+
+git merge <branch_name>
