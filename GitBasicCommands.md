@@ -30,8 +30,6 @@ git push --set-upstream name_link master
 
 git reset (unstage all the files)
 
-
-
 git pull --all
 
 git pull
@@ -47,3 +45,9 @@ git clone
 git checkout DetachedHead
 
 git revert
+
+
+
+
+
+Adding an intentional conflict - doc 1
