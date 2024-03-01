@@ -88,8 +88,6 @@ git branch --list: lists all the branches  that exist and as such if multiple ti
 
 git checkout <branch_name>:  then you enter the new branch of which you typed in the branch_name.
 
-
-
 ## Parallel timelines - how to experiment risk free in Git
 
 1. create a new timeline - branch and give it a name
@@ -100,4 +98,6 @@ git checkout <branch_name>:  then you enter the new branch of which you typed in
    
    1. 'git checkout <name/id>'
 
-3. 
+
+
+git pull --all
