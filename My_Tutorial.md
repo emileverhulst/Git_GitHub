@@ -86,6 +86,7 @@ HTTPS vs SSH: by using the HTTPS key you should not be able to push/pull or edit
 
 git branch --list: lists all the branches that exist and as such if multiple timelines exist.
 
+<<<<<<< HEAD
 git checkout : then you enter the new branch of which you typed in the branch_name.
 
 ## Parallel timelines - how to experiment risk free in Git
@@ -120,4 +121,10 @@ and then you get another error:
 
 "Automatic merge failed; fix conflicts and then commit the result."
 
-Then you should 
+Then you should
+=======
+
+add new text to create a conflict - doc 2
+another edit to create more conflicts
+
+> > > > > > > 
