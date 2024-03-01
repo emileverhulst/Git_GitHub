@@ -46,8 +46,4 @@ git checkout DetachedHead
 
 git revert
 
-
-
-
-
 Adding an intentional conflict - doc 1

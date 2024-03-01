@@ -97,3 +97,27 @@ git checkout : then you enter the new branch of which you typed in the branch_na
 2. checkout to the timeline uou want to work on
    
    1. 'git checkout <name/id>'
+
+## Branching and stuff
+
+Your branch is ahead of 'folder/master' by 3 commits.
+
+-> this means that you (in Git) have performed 3 commits that are not yet included in GitHub. 
+
+## Tips & Tricks
+
+When you are online on GitHub in a file, you can just go to that file in the text editor by pressing '.'
+
+you can get conflicts by adjusting the file locally and via the '.' method in GitHub. Then, actually there are two versions of the file in parallel. When you get the error 
+
+"fatal: Need to specify how to reconcile divergent branches."
+
+then you should type:
+
+"git config pull.rebase false"
+
+and then you get another error:
+
+"Automatic merge failed; fix conflicts and then commit the result."
+
+Then you should 
