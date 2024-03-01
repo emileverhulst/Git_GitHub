@@ -26,7 +26,7 @@ IMPORTANT: don't remove the .git folder where your history is kept.
 
 WORDThy do we write commit messages? This message will later on gelp you or anyone else that has access to it; to understand the context of changes and updates.
 
-## Conceptual Areas
+# Conceptual Areas
 
 1. Development area: working directory
 
@@ -64,7 +64,7 @@ List of files that should not be added to repository:
 
 -> <.gitignore> 
 
-## Important documents that should be part of my repo
+# Important documents that should be part of my repo
 
 1. README.txt/md: Where I should describe my project, my code, main goals, usage, etc... Can also be a good idea to add links and directions for data that should be related.
 
@@ -72,9 +72,9 @@ List of files that should not be added to repository:
    
    1. If you include a folder name in the gitignore file, you can also completely ignore a complete folder.
 
-## Connect to remote repository
+# Connect to remote repository
 
-git remote add <name> <SSH/HTTPS key>
+git add remote <name> <SSH>
 
 SSH key for Git_GitHub repository = git@github.com:emileverhulst/Git_GitHub.git
 
@@ -84,20 +84,16 @@ tralala
 
 HTTPS vs SSH: by using the HTTPS key you should not be able to push/pull or edit the files in the repo, where you should to by using the SSH key.
 
-git branch --list: lists all the branches  that exist and as such if multiple timelines exist.
+git branch --list: lists all the branches that exist and as such if multiple timelines exist.
 
-git checkout <branch_name>:  then you enter the new branch of which you typed in the branch_name.
-
-
+git checkout : then you enter the new branch of which you typed in the branch_name.
 
 ## Parallel timelines - how to experiment risk free in Git
 
 1. create a new timeline - branch and give it a name
    
-   1. 'git branch <name>'
+   1. 'git branch '
 
-2. checkout to the timeline uou want to work on 
+2. checkout to the timeline uou want to work on
    
    1. 'git checkout <name/id>'
-
-3. 
