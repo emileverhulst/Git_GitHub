@@ -94,20 +94,24 @@ git checkout : then you enter the new branch of which you typed in the branch_na
 git branch --list: lists all the branches  that exist and as such if multiple timelines exist.
 
 git checkout <branch_name>:  then you enter the new branch of which you typed in the branch_name.
->>>>>>> Experimenting
-=======
-git branch --list: lists all the branches that exist and as such if multiple timelines exist.
+
+> > > > > > > Experimenting
+> > > > > > > =======
+> > > > > > > 
+> > > > > > > git branch --list: lists all the branches that exist and as such if multiple timelines exist.
 
 git checkout : then you enter the new branch of which you typed in the branch_name.
->>>>>>> Experimental
+
+> > > > > > > Experimental
 
 ## Parallel timelines - how to experiment risk free in Git
 
 1. create a new timeline - branch and give it a name
-   
+
 <<<<<<< HEAD
 <<<<<<< HEAD
-   1. 'git branch '
+
+1. 'git branch '
 
 2. checkout to the timeline uou want to work on
    
@@ -137,23 +141,30 @@ and then you get another error:
 
 then you should delete the conflict in the local file and then add and commit the file again, and push it to GitHub. Then it should be solved.
 
-
-
 git merge <branch_name>
 =======
-   1. 'git branch <name>'
-=======
-   1. 'git branch '
->>>>>>> Experimental
 
-2. checkout to the timeline uou want to work on
+1. 'git branch <name>'
+   =======
+
+2. 'git branch '
+   
+   > > > > > > > Experimental
+
+3. checkout to the timeline uou want to work on
    
    1. 'git checkout <name/id>'
-<<<<<<< HEAD
-
-
+      <<<<<<< HEAD
 
 git pull --all
->>>>>>> Experimenting
-=======
->>>>>>> Experimental
+
+> > > > > > > Experimenting
+> > > > > > > =======
+> > > > > > > 
+> > > > > > > Experimental
+
+When you merge, the two last timepoints of each branch are merged and your files locally are also merged.
+
+
+
+Solving conflicts: adjust what you want to retain locally, then add and commit it again and push it. Then it should work.
