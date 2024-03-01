@@ -45,9 +45,12 @@ git clone
 git checkout DetachedHead
 
 git revert
+<<<<<<< HEAD
 
 Adding an intentional conflict - doc 1
 
 
 
 git merge
+=======
+>>>>>>> Experimental
