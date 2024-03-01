@@ -86,3 +86,4 @@ HTTPS vs SSH: by using the HTTPS key you should not be able to push/pull or edit
 
 
 add new text to create a conflict - doc 2
+another edit to create more conflicts
